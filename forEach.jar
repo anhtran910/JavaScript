@@ -1,0 +1,5 @@
+const fruits = ['mango', 'papaya', 'pineapple', 'apple'];
+
+// Iterate over fruits below
+function printItem(i) {console.log('I want to eat a '+i)};
+fruits.forEach(printItem);
